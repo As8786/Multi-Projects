@@ -24,6 +24,12 @@ class Slider extends React.Component {
           >
             Calculator
           </Link>
+          <Link
+            to="/drag-project"
+            onClick={() => this.props.onOpenSliderButton()}
+          >
+            Drag Play
+          </Link>
         </Menu>
       </div>
     );

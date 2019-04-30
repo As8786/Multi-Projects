@@ -1,0 +1,43 @@
+.drag-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.drag-container .incompleted {
+  width: 25%;
+  min-height: 150px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.drag-container .completed {
+  width: 25%;
+  min-height: 150px;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.drag-container .todo-item {
+  border: 2px solid rgb(131, 81, 81);
+  width: 90%;
+  text-align: center;
+  margin: 7px;
+  border-radius: 7px;
+  padding: 3px 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 1.2rem;
+  color: rgb(66, 57, 57);
+  cursor: pointer;
+}
